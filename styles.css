@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("./images/bg-intro-mobile.png");
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.app {
+  width: 375px;
+  padding: 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 50px;
+  color: #fff;
+  line-height: 2.2rem;
+  font-size: 1.7rem;
+}
+
+p {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.box {
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  color: #000;
+  box-shadow: 0 10px 0 0 rgb(0, 0, 0, 0.2);
+  margin-bottom: 60px;
+}
+
+.blue-box {
+  color: #fff;
+  margin-top: 65px;
+  padding: 18px 50px;
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 25px;
+}
+
+.blue-box span {
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 17px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  font-family: Poppins;
+}
+
+button {
+  background: hsl(154, 59%, 51%);
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  padding: 17px;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 5px 0 0 hsl(154, 100%, 35%);
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: Poppins;
+  margin-bottom: 10px;
+}
+
+.termsConditions {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin: 5px 15px;
+}
+
+.termsConditions a {
+  color: hsl(0, 100%, 74%);
+  font-weight: 800;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.attribution {
+  position: fixed;
+  bottom: -10px;
+}
+
+@media only screen and (min-width: 1100px) {
+  .app {
+    width: 1100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .flex-column{
+      width: 540px;
+  }
+
+  .intro {
+    padding-right: 50px;
+   
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 3.0em;
+    line-height: 3.5rem;
+    padding: 0;
+  }
+
+  p {
+    margin-top: 0;
+    line-height: 1.65rem;
+    font-size: 0.9rem;
+  }
+
+  .box {
+    width: 540px;
+  }
+    
+  .blue-box{
+    padding:20px;
+  }
+
+}
