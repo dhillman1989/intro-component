@@ -113,6 +113,7 @@ button {
 @media only screen and (min-width: 1100px) {
   .app {
     width: 1100px;
+    height: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
